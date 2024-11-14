@@ -1,0 +1,93 @@
+/* Contact Section */
+.contact-section {
+    padding-top: 8rem; 
+  }
+  
+  /* Grid Layout */
+  .contact-grid {
+    display: grid;
+    gap: 2.5rem;
+    text-align: center;
+  }
+  
+  .contact-header {
+    margin-bottom: 2rem;
+  }
+  
+  /* Title and Description */
+  .contact-title {
+    font-size: 3rem; 
+    color: #64b6b6; 
+  }
+  
+  .contact-description {
+    font-size: 1.125rem;
+    color: #d97706; 
+    padding-top: 0.5rem;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    display: inline-block;
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-item {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-email, .contact-phone {
+    font-size: 1.25rem; 
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+  }
+  
+  /* Form Section */
+  .contact-form {
+    text-align: center;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .form-title {
+    font-size: 1.5625rem; 
+    margin-bottom: 1.25rem;
+  }
+  
+  /* Form Fields */
+  .form-field {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-input, .form-textarea {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #1f2937; 
+    height: 1.5625rem;
+    width: 20rem; 
+    padding: 0.25rem;
+  }
+  
+  .form-textarea {
+    height: 6rem; 
+  }
+  
+  .form-button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.25rem; 
+    padding: 0.5rem 2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #f3f4f6;
+  }
+  

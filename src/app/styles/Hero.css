@@ -1,0 +1,65 @@
+/* Hero Section Styles */
+.hero-section {
+    min-height: 100vh;
+    background-image: url('/banner.bg.png');
+    background-repeat: no-repeat;
+    background-position:130px;
+    background-size: 35%; 
+    padding-top: 0rem; 
+    background-attachment: cover;
+    padding-left: 100px;
+  }
+  
+  .hero-container {
+    display: grid;
+    height: calc(100vh - 60px); 
+    grid-template-columns: 1fr;
+  }
+  
+  .hero-left {
+    display: none; 
+  }
+  
+  .hero-text {
+    font-size: 8vw;
+    font-weight: 100; 
+    font-family: 'serif'; 
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    text-align:left;
+    line-height: 1.1; 
+    margin: 0;
+  }
+  
+  .hero-text p {
+    margin: 0;
+  }
+  
+  /* Responsive Typography */
+  @media (min-width: 640px) {
+    .hero-text {
+      font-size: 6vw; 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .hero-text {
+      font-size: 5vw; 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .hero-container {
+      grid-template-columns: 1fr 1fr; 
+    }
+  
+    .hero-left {
+      display: block; 
+    }
+  
+    .hero-text {
+      font-size: 4vw; 
+    }
+  }
+  

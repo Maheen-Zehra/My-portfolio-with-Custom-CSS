@@ -1,0 +1,104 @@
+
+.navbar-container {
+    padding-top: 2rem; 
+    width: 100%;
+  }
+  
+  .navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; 
+    padding-right: 1rem; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 60px; 
+    height: 56px;
+  }
+  
+  .logo-text {
+    font-size: 1.25rem; 
+    font-weight: 500; 
+    margin-left: 0.5rem;
+  }
+  
+  .navbar-links {
+    display:flex;
+    gap: 2.5rem; 
+    list-style: none;
+    margin: 0;
+    background-position: center;
+  }
+  
+  .navbar-links li {
+    padding: 0;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 1rem;
+    font-weight: 400;
+    
+  }
+  
+ 
+  
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    list-style: none;
+  }
+  
+  .mobile-menu li {
+    padding: 0;
+  }
+  
+  .mobile-menu a {
+    text-decoration: none;
+    color: #fcfcfc; 
+    font-size: 1rem;
+    font-weight: 400;
+   cursor: pointer;
+  }
+  .navbar-links :hover {
+    color: darkorange;
+  }
+  
+  .mobile-menu :hover{
+    color: darkorange;
+  }
+
+  .menu-icon :hover {
+    color: rgb(237, 148, 14);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+.card {
+    border: 1px solid black;
+    width: 300px;
+  }
+  
+  @media (min-width: 640px) {
+    .card {
+      width: 335px;
+    }
+  }
+  
+  .card-image {
+    width: 300px;
+  }
+  
+  @media (min-width: 640px) {
+    .card-image {
+      width: 335px;
+    }
+  }
+  
+  .card-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .card-title {
+    font-size: 2.5rem; 
+    font-weight: 200; 
+  }
+  
+  .card-desc {
+    color: white;
+  }
+  
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .tag {
+    background-color: #9b5504;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
